@@ -6,12 +6,12 @@ import joblib
 
 
 # Load models and encoders
-reg_model = joblib.load("price_predictor.pkl")
-clf_model = joblib.load("rating_classifier.pkl")
-encoders = joblib.load("label_encoders.pkl")
+reg_model = joblib.load("src/Model/price_predictor.pkl")
+clf_model = joblib.load("src/Model/rating_classifier.pkl")
+encoders = joblib.load("src/Model/label_encoders.pkl")
 
 # Load source data to get dynamic dropdown options
-data_df = pd.read_csv("enhanced_zomato_dataset_clean.csv")  # Ensure this matches your dataset file name
+data_df = pd.read_csv("src/Data/enhanced_zomato_dataset_clean.csv")  # Ensure this matches your dataset file name
 
 # Extract unique dropdown values
 cities = sorted(data_df["City"].dropna().unique())
