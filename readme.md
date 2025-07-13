@@ -9,6 +9,7 @@ The app is built using **Streamlit**, with machine learning models trained on re
 
 👉 **[Click here to experience the app](https://zomatoapps.streamlit.app/)**
 
+📊 **Data Source**: [Zomato Restaurant Dataset on Kaggle](https://www.kaggle.com/datasets/gauravkumar2525/zomato-restaurant-dataset)
 ---
 
 ## 📦 Project Structure
