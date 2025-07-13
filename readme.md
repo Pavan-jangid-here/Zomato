@@ -7,6 +7,8 @@ This project is an **end-to-end machine learning web application** that predicts
 
 The app is built using **Streamlit**, with machine learning models trained on restaurant data including features like ratings, location, cuisine, and popularity.
 
+👉 **[Click here to experience the app](https://zomatoapps.streamlit.app/)**
+
 ---
 
 ## 📦 Project Structure
